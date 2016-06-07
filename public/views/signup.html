@@ -20,14 +20,29 @@
         <div class="separator-fields"></div>
       </div>
       <div>
-        <label class="label-form" for="node-10">FOOTBALL&nbsp;TEAM</label>
+        <label class="label-form" for="email-field">STREET ADDRESS</label>
+        <input  ng-model="address" class="w-input input-form" id="address-field" type="text" name="address" data-name="address"/>
+        <div class="separator-fields"></div>
+      </div>
+      <div>
+        <label class="label-form" for="node-10">CITY</label>
         <div class="separator-fields"></div>
         <select class="w-select input-form select" id="node-10">
           <option value="">Select one...</option>
-          <option value="F.C. Barcelona">F.C. Barcelona</option>
-          <option value="Manchester United">Manchester United</option>
-          <option value="Real Madrid">Real Madrid</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Chennai">Chennai</option>
         </select>
+        <div class="separator-fields"></div>
+      </div>
+      <div>
+        <label class="label-form" for="email-field">ZIP CODE</label>
+        <input  ng-model="zipCode" class="w-input input-form" id="zipCode-field" type="number" name="zipCode" data-name="zipCode"/>
+        <div class="separator-fields"></div>
+      </div>
+      <div>
+        <label class="label-form" for="email-field">PHONE</label>
+        <input  ng-model="phone" class="w-input input-form" id="phone-field" type="number" name="phone" data-name="phone"/>
+        <div class="separator-fields"></div>
       </div>
       <button class="w-button action-button btn btn-lg  btn-block btn-success" type="submit">Signup</button>
 

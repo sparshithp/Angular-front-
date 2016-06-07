@@ -528,7 +528,6 @@ a {
   height: 80px;
 }
 .input-form.select {
-  -moz-appearance: none;
   background-image: -webkit-linear-gradient(transparent, transparent);
   background-image: linear-gradient(transparent, transparent);
 }
